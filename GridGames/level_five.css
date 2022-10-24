@@ -1,0 +1,64 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-auto-rows: 150px;
+}
+
+#title {
+  grid-column: 1/-1;
+}
+
+.friend {
+  grid-column-start: span 2;
+}
+
+/* Style other types of family members below*/
+.m1 {
+ grid-row-start: span 2;
+}
+
+.m2 {
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+
+.m3 {
+  grid-row-start: span 2;
+}
+
+.m4 {
+  
+}
+
+.m5 {
+  grid-column-start: span 2;
+}
+
+.m6 {
+  grid-column-start: span 3;
+}
+
+.m7 {
+  
+}
+
+.m8 {
+  grid-column-end: span 2;
+}
+
+.m9 {
+  grid-column-end: span 1;
+}
+
+.m10 {
+  grid-column-end: span 2;
+}
+
+.m11 {
+
+}
+
+.m12 {
+  grid-row-start: span 2;
+}
+
